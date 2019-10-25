@@ -1,2 +1,0 @@
-# Tutorialinfogain
-infogain hands on 
