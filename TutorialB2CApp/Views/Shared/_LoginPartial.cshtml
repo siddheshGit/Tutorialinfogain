@@ -9,12 +9,12 @@
 
 
 <ul class="navbar-nav">
-@if (User.Identity.IsAuthenticated)
-{
+    @if (User.Identity.IsAuthenticated)
+    {
         @if (!string.IsNullOrEmpty(options.EditProfilePolicyId))
         {
             <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="AzureADB2C" asp-controller="Account" asp-action="EditProfile">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="EditProfile">
                     <span class="text-dark">Hello @User.Identity.Name!</span>
                 </a>
             </li>
@@ -22,17 +22,19 @@
         else
         {
             <li class="nav-item">
-                <span class="navbar-text text-dark">Hello @User.Identity.Name!</span>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="EditProfile">
+                    <span class="text-dark">Hello @User.Identity.Name!</span>
+                </a>
             </li>
         }
         <li class="nav-item">
             <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignOut">Sign out</a>
         </li>
-}
-else
-{
+    }
+    else
+    {
         <li class="nav-item">
             <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignIn">Sign in</a>
         </li>
-}
+    }
 </ul>
