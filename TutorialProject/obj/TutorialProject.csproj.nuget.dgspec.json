@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\siddheshg\\source\\repos\\TutorialProject\\TutorialProject\\TutorialProject.csproj": {}
+    "C:\\Users\\siddhesh.gawas\\source\\repos\\siddheshGit\\Tutorialinfogain\\TutorialProject\\TutorialProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\siddheshg\\source\\repos\\TutorialProject\\TutorialProject\\TutorialProject.csproj": {
+    "C:\\Users\\siddhesh.gawas\\source\\repos\\siddheshGit\\Tutorialinfogain\\TutorialProject\\TutorialProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\siddheshg\\source\\repos\\TutorialProject\\TutorialProject\\TutorialProject.csproj",
+        "projectUniqueName": "C:\\Users\\siddhesh.gawas\\source\\repos\\siddheshGit\\Tutorialinfogain\\TutorialProject\\TutorialProject.csproj",
         "projectName": "TutorialProject",
-        "projectPath": "C:\\Users\\siddheshg\\source\\repos\\TutorialProject\\TutorialProject\\TutorialProject.csproj",
-        "packagesPath": "C:\\Users\\siddheshg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\siddheshg\\source\\repos\\TutorialProject\\TutorialProject\\obj\\",
+        "projectPath": "C:\\Users\\siddhesh.gawas\\source\\repos\\siddheshGit\\Tutorialinfogain\\TutorialProject\\TutorialProject.csproj",
+        "packagesPath": "C:\\Users\\siddhesh.gawas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\siddhesh.gawas\\source\\repos\\siddheshGit\\Tutorialinfogain\\TutorialProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\siddheshg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\siddhesh.gawas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
